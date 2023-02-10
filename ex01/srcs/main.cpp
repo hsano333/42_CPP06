@@ -32,11 +32,11 @@ int main(void)
     ptestA = deserialize(resultA);
     ptestB = deserialize(resultB);
     if (ptestA == &testA)
-        cout << "Success testA" << endl;
+        cout << "Success *testA:" << &testA << ", resulatA:" << resultA << ", ptestA:" << ptestA << endl;
     else
         cout << "Failure testA" << endl;
     if (ptestB == &testB)
-        cout << "Success testB" << endl;
+        cout << "Success *testB:" << &testB << ", resulatB:" << resultB << ", ptestB:" << ptestB << endl;
     else
         cout << "Failure testB" << endl;
 
