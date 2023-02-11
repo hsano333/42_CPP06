@@ -235,12 +235,6 @@ int main(int argc, char **argv)
     string substr;
     size_t pos;
 
-    float f = 100000.123f;
-
-    cout << "f:" << f << endl;
-    f = 1000000.123f;
-    cout << "f:" << f << endl;
-
     if (argc < 2)
     {
         cout << "Error:Argument is nothing" << endl;
